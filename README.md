@@ -2,9 +2,6 @@
 
 A Flask-based web application that utilizes OpenAI's Whisper model to transcribe audio files. It provides a user-friendly interface for uploading single or multiple audio files, processing transcriptions with formatted pauses, and allowing users to view or download the resulting text files. The application is designed to be easily run, particularly in environments like Google Colab, using `pyngrok` to expose the local Flask server to the internet.
 
-![image](https://i.ibb.co/k3yG97W/Screenshot-2024-03-15-101908.png)
-*(Contoh Antarmuka Pengguna - Ganti dengan screenshot Anda jika perlu)*
-
 ## ✨ Features
 
 *   **Audio Upload:** Supports uploading multiple audio files simultaneously.
@@ -65,7 +62,7 @@ A Flask-based web application that utilizes OpenAI's Whisper model to transcribe
     *   **In Google Colab:** Simply run the Python cell containing the script.
     *   **Locally:** Execute `python your_script_name.py` from your terminal.
 
-## 使い方 (Usage)
+## How to use
 
 1.  After running the script, wait for the ngrok tunnel to be established. The public URL will be printed in the output:
     ```
